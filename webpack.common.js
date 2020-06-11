@@ -67,7 +67,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/dodatki.html",
       inject: true,
-      chunks: ["index", "dodatki"],
+      chunks: ["dodatki"],
       filename: "dodatki.html",
     }),
   ],
