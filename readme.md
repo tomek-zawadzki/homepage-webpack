@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![]()
 
 # Projekt szkoleniowy w ramach WTF - co ten frontend
 Strona szkolenia: [WTF] (https://cotenfrontend.pl/)
@@ -10,27 +10,27 @@ lub brudnopisu. Próbuję w nim większość rzeczy których się uczę. Dlatego
 ale takie jest założenie. Ta strona nie musi być ładna, ma mi pomóc w nauce.
 Co się uczę:
 1. **HTML5**
-  1. Semantyka
-  2. Składnia
-  3. Najnowsze standardy
+   1. Semantyka
+   2. Składnia
+   3. Najnowsze standardy
 2. **CSS**
-  1. Atrybuty
-  2. Animacje 
-  3. Zmienne
-  4. Zasady stylowania
+   1. Atrybuty
+   2. Animacje 
+   3. Zmienne
+   4. Zasady stylowania
 3. **JavaScript**
-  1. Funkcje
-  2. Obiekty
-  3. Pętle
-  4. Tablice
+   1. Funkcje
+   2. Obiekty
+   3. Pętle
+   4. Tablice
 4. **Inne programy, narzędzia i techniki**
-  1. GIT/GitHub
-  2. DevTools
-  3. BEM
-  4. Node.js
-  5. SASS
-  6. Webpack
-  7. Figma
+   1. GIT/GitHub
+   2. DevTools
+   3. BEM
+   4. Node.js
+   5. SASS
+   6. Webpack
+   7. Figma
 
 
 ## Jak uruchomić
