@@ -1,4 +1,4 @@
-![]()
+![learn](./GitHub/readme.gif)
 
 # Projekt szkoleniowy w ramach WTF - co ten frontend
 Strona szkolenia: [WTF] (https://cotenfrontend.pl/)
