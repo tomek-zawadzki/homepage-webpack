@@ -1,7 +1,7 @@
 @import "~normalize.css";
 
 @import "_variables";
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&family=Jaldi:wght@400;700&display=swap');
 @import "modules/workweek.scss";
 @import "modules/navigation.scss";
 @import "modules/media_queries_mobile.scss";
@@ -20,10 +20,10 @@ $desktop: 769px;
 body {
   background-color: #092327;
   color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   position: relative;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .main {
