@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgba(9, 35, 39, 0.5);
+    &__link {
+      color: #e0ff4f;
+      background-color: #00a9a5;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 8px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      &:hover {
+        color: #00a9a5;
+        background-color: #e0ff4f;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 8px;
+        transform: scale(1.2);
+      }
+    }
+  }
