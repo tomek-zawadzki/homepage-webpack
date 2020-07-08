@@ -9,6 +9,31 @@ html {
 
 $tablet: 768px;
 
+@keyframes paper {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes write {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+    transform-origin: left;
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
 body {
   background-color: #092327;
   color: #fff;
@@ -75,6 +100,7 @@ body {
   padding: 20px;
   border-radius: 30px;
   text-align: center;
+  position: relative;
   &__title {
     display: flex;
     justify-content: center;
@@ -90,6 +116,25 @@ body {
     padding: 7px;
     border-radius: 4px;
   }
+}
+
+
+.notes {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: inline-block;
+  animation: paper 2s ease-in-out infinite;
+}
+
+.pencil {
+  font-size: 60px;
+  color: yellowgreen;
+  position: absolute;
+  left: 30px;
+  top: 16px;
+  display: inline-block;
+  animation: write 2s ease-in-out infinite alternate;
 }
 
 
@@ -134,6 +179,7 @@ body {
     margin: 10px;
   }
 }
+
 
 .website {
   background-color: #00a9a5;
