@@ -1,0 +1,14 @@
+.repos {
+    background-color: #104f55;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 30px; 
+    &__title {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        padding-bottom: 30px;
+        border-bottom: #092327 dashed 2px;
+        margin: 0, 40px;
+    }
+}
