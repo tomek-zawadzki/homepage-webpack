@@ -5,6 +5,7 @@ import '../scss/main.scss';
 console.log('HELLO 🚀')
 
 import {buttonHamburger} from './buttonHamburger.js';
+import {repositoryList} from './fetch.js';
 
 console.log(buttonHamburger);
 
@@ -31,3 +32,4 @@ dataThree.innerHTML = moment().format('LTS');
 dataThree.style.fontWeight = ('700');
 dataThree.style.fontSize = ('16px');
 dataThree.style.color = ('tomato');
+
